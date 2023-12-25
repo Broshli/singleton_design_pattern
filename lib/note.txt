@@ -1,0 +1,15 @@
+class Singleton1{
+    Singleton1? _instance;  // this is an instance of this class
+}
+
+Singleton1 singleton1 = Singleton1();
+singleton1.any_function_name();
+Singleton1 singleton2 = Singleton1();
+Singleton1 singleton3 = Singleton1();
+Singleton1 singleton4 = Singleton1();
+Singleton1 singleton5 = Singleton1();
+
+singleton1, singleton2, singleton3, singleton4 and singleton5 are all the instance of Singleton1 class
+
+In Dart the _internal can be used in outside the class it is not a class based instance variable it is file base it mean we can use Singleton1._internal anywhere we wand in the file but not out side the file.
+
